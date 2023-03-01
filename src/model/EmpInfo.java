@@ -5,6 +5,7 @@
 package model;
 
 import javax.swing.ImageIcon;
+import java.util.UUID;
 
 
 public class EmpInfo {
@@ -36,12 +37,15 @@ public class EmpInfo {
         this.name = name;
     }
 
-    public int getEmployeeId() {
-        return employeeId;
+    public void setEmployeeId() {
+        UUID uuid = UUID.randomUUID();
+        long uuidAsLong = uuid.getMostSignificantBits();
+        int uuidAsInt = (int) uuidAsLong;
+        this.employeeId = uuidAsInt;
     }
-
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
+    
+    public int getEmployeeId(){
+        return employeeId;
     }
 
     public int getAge() {

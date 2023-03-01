@@ -202,9 +202,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblEmpInfo);
 
-        btnDelete.setBackground(new java.awt.Color(221, 38, 38));
         btnDelete.setFont(new java.awt.Font("Open Sans SemiBold", 0, 18)); // NOI18N
-        btnDelete.setForeground(new java.awt.Color(255, 255, 255));
         btnDelete.setText("Delete");
         btnDelete.setPreferredSize(new java.awt.Dimension(153, 35));
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
@@ -213,9 +211,7 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
-        btnView.setBackground(new java.awt.Color(14, 153, 112));
         btnView.setFont(new java.awt.Font("Open Sans SemiBold", 0, 18)); // NOI18N
-        btnView.setForeground(new java.awt.Color(255, 255, 255));
         btnView.setText("Read");
         btnView.setPreferredSize(new java.awt.Dimension(153, 35));
         btnView.addActionListener(new java.awt.event.ActionListener() {
@@ -224,9 +220,7 @@ public class ViewJPanel extends javax.swing.JPanel {
             }
         });
 
-        jButton1.setBackground(new java.awt.Color(19, 105, 191));
         jButton1.setFont(new java.awt.Font("Open Sans SemiBold", 0, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ui/search.png"))); // NOI18N
         jButton1.setText(" Search");
 
@@ -306,9 +300,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         lblEmail1.setFont(new java.awt.Font("Open Sans", 0, 20)); // NOI18N
         lblEmail1.setText("Email Address");
 
-        btnUpdate.setBackground(new java.awt.Color(227, 148, 30));
         btnUpdate.setFont(new java.awt.Font("Open Sans SemiBold", 0, 18)); // NOI18N
-        btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
         btnUpdate.setText("Update");
         btnUpdate.setPreferredSize(new java.awt.Dimension(153, 35));
         btnUpdate.addActionListener(new java.awt.event.ActionListener() {
